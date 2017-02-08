@@ -1,0 +1,21 @@
+The correlation between Profit and number of defective items were found to be -0.9774. The profit and number of defective items 
+are highly correlated to each other. The scatter plot depicts that relation is liner.  The meaning of negative correlation is 
+that if we increase the number of defective items, the profits decreases accordingly
+
+The dataset shows that it satisfies all the assumption for the linear regression. So, we tried to analyses the linear regression
+between profit and number of defective items where profit was assumed to be outcome variable number of defective item was assumed
+to be predictor variable. 
+The shape of the correlation shows that they are linearly dependent to each other.  While analyzing the residual of the model 
+containing profit as an outcome variable and number of defective items as a univariate predictor. we were unable to say that the 
+residual is not normally distributed. The residuals and the fitted values were perfectly uncorrelated to each other as they should 
+be in a homoscedastic linear model with normally distributed errors. The linear regression model was found to be significant with
+the p value of 0.005. 
+It was found that there is significant association between mean ABP and the weight. 90% variability of the mean ABP was described 
+by the weight. The estimated value for the different parameter in the model shows that Number of Defective items is good predictor
+of profit. We found that adjusted r-square value in the model is 0.9543 which means 95.43% of variability of the profit is explained 
+by the number of defective items. The final model we obtained was as follow. 
+
+(Profit) ̂ = 1118.81 – 1.04*Number of Defective item
+
+The profit is maximum when the number of defective item is zero and the profit decreases as the number of defective item increases.
+For each one number of increase in defective item, the profit decrease by 1.04. 
